@@ -5,6 +5,25 @@
   <title>RajSecure - Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
+  <script>
+  const tips = [
+    "Use strong, unique passwords for each account.",
+    "Enable two-factor authentication wherever possible.",
+    "Don’t click on suspicious links in emails.",
+    "Update your software regularly.",
+    "Use a VPN when on public Wi-Fi.",
+    "Avoid using the same password on multiple sites.",
+    "Install a reliable antivirus and keep it updated.",
+    "Don’t share personal info over unsecured websites.",
+    "Lock your computer when you’re away.",
+    "Back up your important files regularly."
+  ];
+
+  const randomTip = tips[Math.floor(Math.random() * tips.length)];
+
+  document.write(`<div style="padding: 15px; background-color: #222; color: #0f0; text-align: center; border-radius: 10px; margin: 20px;">💡 <strong>Cybersecurity Tip of the Day:</strong> ${randomTip}</div>`);
+</script>
+
 <body><img src="abc.jpg" alt="My logo" style="width: 120px; height: auto; border-radius: 50%; display: block; margin: 20px auto;">
   <header>
     <h1>RajSecure</h1>
