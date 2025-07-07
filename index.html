@@ -26,6 +26,8 @@
 
 <body><img src="abc.jpg" alt="My logo" style="width: 120px; height: auto; border-radius: 50%; display: block; margin: 20px auto;">
   <header>
+    <button onclick="toggleMode()" id="modeToggle">🌙 Toggle Dark/Light</button>
+
     <h1>RajSecure</h1>
     <nav>
       <a href="index.html">Home</a>
@@ -44,5 +46,11 @@
   <footer>
     <p>© 2025 RajSecure</p>
   </footer>
+  <script>
+  function toggleMode() {
+    document.body.classList.toggle("light-mode");
+  }
+</script>
+
 </body>
 </html>
